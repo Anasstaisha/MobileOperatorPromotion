@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Ваши бонусы: " + bonus + " рублей");
         }
         else {
-            System.out.println("Ваш баланс: " + (balance + depositing));
+            System.out.println("Ваш баланс: " + (balance + depositing + " рублей"));
             System.out.println("Ваши бонусы: 0 рублей");
         }
         }
