@@ -8,10 +8,9 @@ public class Main {
         if (depositing >= 1000) {
             System.out.println("Ваш баланс: " + (bonus + depositing + balance + " рублей"));
             System.out.println("Ваши бонусы: " + bonus + " рублей");
-        }
-        else {
+        } else {
             System.out.println("Ваш баланс: " + (balance + depositing + " рублей"));
             System.out.println("Ваши бонусы: 0 рублей");
         }
-        }
+    }
 }
